@@ -1,4 +1,6 @@
-require 'mkmf-rice'
+require 'mkmf'
 
-have_library("snappy")
-create_makefile('snappy')
+extension_name = 'libsnappy'
+$LIBS << " -lstdc++ -lsnappy"
+
+create_makefile(extension_name)
