@@ -1,5 +1,5 @@
 require 'rspec'
-require 'snappy'
+require 'libsnappy'
 
 describe Snappy do
   it 'should compress data' do
