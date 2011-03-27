@@ -12,11 +12,8 @@ Gem::Specification.new do |s|
   s.description = s.summary
 
   s.rubyforge_project = "snappy"
-
   s.extensions = ["ext/extconf.rb"]
 
-  s.add_dependency "rice"
-  s.add_development_dependency "rake-compiler", "0.7.6"
   s.add_development_dependency "rspec"
 
   s.files         = `git ls-files`.split("\n")
