@@ -1,3 +1,0 @@
-module Snappy
-  # Your code goes here...
-end
