@@ -2,16 +2,16 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "snappy"
+  s.name        = "libsnappy"
   s.version     = "0.1.0"
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Ilya Grigorik"]
-  s.email       = ["ilya@igvita.com"]
+  s.authors     = ["Ilya Grigorik", "Michael Bernstein"]
+  s.email       = ["ilya@igvita.com", "michael@spaceshipknows.com"]
   s.homepage    = "http://code.google.com/p/snappy/"
   s.summary     = "Snappy, a fast compressor/decompressor (courtesy of Google)"
   s.description = s.summary
 
-  s.rubyforge_project = "snappy"
+  s.rubyforge_project = "libsnappy"
   s.extensions = ["ext/extconf.rb"]
 
   s.add_development_dependency "rspec"
